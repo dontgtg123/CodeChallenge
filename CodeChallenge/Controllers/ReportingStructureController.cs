@@ -13,7 +13,7 @@ namespace CodeChallenge.Controllers
         private readonly ILogger _logger;
         private readonly IEmployeeService _employeeService;
 
-        public ReportingStructureController(ILogger<EmployeeController> logger, IEmployeeService employeeService)
+        public ReportingStructureController(ILogger<ReportingStructureController> logger, IEmployeeService employeeService)
         {
             _logger = logger;
             _employeeService = employeeService;
